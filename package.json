@@ -17,5 +17,13 @@
     "height"
   ],
   "author": "Carlos Alcazar",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlcazarInnovation/react-native-orientation-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlcazarInnovation/react-native-orientation-tracker/issues"
+  },
+  "homepage": "https://github.com/AlcazarInnovation/react-native-orientation-tracker#readme"
 }
