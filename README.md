@@ -1,5 +1,5 @@
 # react-native-orientation-tracker
-The React Native Orientation Tracker is a package that allows you to get information on wether a device is in landscape or portrait mode.
+The React Native Orientation Tracker is a package that allows you to get information on wether a device is in landscape or portrait mode without the need of bridging to native.
 
 # How to Use
 
