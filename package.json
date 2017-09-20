@@ -1,0 +1,21 @@
+{
+  "name": "react-native-orientation-tracker",
+  "version": "1.0.0",
+  "description": "This package can be used to determine if a device is in landscape or portrait mode within your react-native app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "orientation",
+    "landscape",
+    "portrait",
+    "device",
+    "window",
+    "width",
+    "height"
+  ],
+  "author": "Carlos Alcazar",
+  "license": "ISC"
+}
