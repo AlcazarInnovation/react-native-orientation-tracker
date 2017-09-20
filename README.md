@@ -20,7 +20,7 @@ import orientationTracker from 'react-native-orientation-tracker';
      ```
 4. Get the current orientation anywhere in the app by accessing 
 ```
-orientationTracker.orientation
+orientationTracker.orientation()
 ```
 
 
@@ -29,8 +29,8 @@ orientationTracker.orientation
 layoutChange (function)
 - This function get called by the onLayout function provided by the view. When orientation happens, the triggers the onLayout prop which lets the orientation tracker know that an orientation change has occured.
 
-orientation (string)
-- This outputs the current devices orientation. It should return "landscape", "portrait", or "square". If the device width is greater than the height then it is landscape. If the device width is shorter than the height then it is portrait. If the device heigh and width are the same then it returns square.
+orientation (function)
+- This returns the current device's orientation. It should return "landscape", "portrait", or "square". If the device width is greater than the height then it is landscape. If the device width is shorter than the height then it is portrait. If the device heigh and width are the same then it returns square.
 
   
   
