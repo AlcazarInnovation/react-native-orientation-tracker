@@ -1,6 +1,6 @@
 import { Dimensions } from 'react-native';
 
-export let orientation;
+let orientation;
 class tracker {
     constructor() {
         this.layoutChange = this.layoutChange.bind(this);
@@ -24,6 +24,9 @@ class tracker {
         if (width === height) {
             orientation = "square";
         }
+    }
+    orientation() {
+        return orientation
     }
 }
 
