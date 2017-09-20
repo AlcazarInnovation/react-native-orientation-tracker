@@ -1,7 +1,7 @@
 import { Dimensions } from 'react-native';
 
 export let orientation;
-export default class tracker {
+class tracker {
     constructor() {
         this.layoutChange = this.layoutChange.bind(this);
     }
@@ -26,6 +26,10 @@ export default class tracker {
         }
     }
 }
+
+let trackerClass = new tracker();
+
+export default trackerClass;
 
 
 
